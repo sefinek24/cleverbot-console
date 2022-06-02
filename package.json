@@ -1,6 +1,6 @@
 {
   "name": "cleverbot-console",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Talk with CleverBot in the console.",
   "main": "bin/index.js",
   "scripts": {
@@ -18,7 +18,8 @@
     "terminal"
   ],
   "bin": {
-    "cleverbot": "bin/index.js"
+    "cleverbot": "bin/index.js",
+    "cleverbot-console": "bin/index.js"
   },
   "preferGlobal": true,
   "author": "Sefinek <contact@sefinek.fun>",
