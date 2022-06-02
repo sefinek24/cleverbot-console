@@ -1,0 +1,35 @@
+{
+  "name": "cleverbot-console",
+  "version": "1.0.5",
+  "description": "Talk with CleverBot in the console.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/cleverbot-console.git"
+  },
+  "keywords": [
+    "cleverbot",
+    "in",
+    "the",
+    "console",
+    "terminal"
+  ],
+  "bin": {
+    "cleverbot": "bin/index.js"
+  },
+  "preferGlobal": true,
+  "author": "Sefinek <contact@sefinek.fun>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sefinek24/cleverbot-console/issues"
+  },
+  "homepage": "https://github.com/sefinek24/cleverbot-console#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "md5": "^2.3.0",
+    "superagent": "^7.1.6"
+  }
+}
