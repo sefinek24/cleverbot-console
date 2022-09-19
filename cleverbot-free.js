@@ -1,10 +1,10 @@
 const { get, post } = require('superagent');
 const md5 = require('md5');
 
-const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36';
+const userAgent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36';
 
 let cookies;
-let cbsid;
+let cbsId;
 let xai;
 let lastResponse;
 let lastCookieUpdate = 0;
@@ -31,7 +31,7 @@ module.exports = async (stimulus, context = [], language) => {
 
 	for (let i = 0; i < 15; i++) {
 		try {
-			const req = await post(`https://www.cleverbot.com/webservicemin?uc=UseOfficialCleverbotAPI${cbsid ? `&out=${encodeURIComponent(lastResponse)}&in=${encodeURIComponent(stimulus)}&bot=c&cbsid=${cbsid}&xai=${xai}&ns=2&al=&dl=&flag=&user=&mode=1&alt=0&reac=&emo=&sou=website&xed=&` : ''}`)
+			const req = await post(`https://www.cleverbot.com/webservicemin?uc=UseOfficialCleverbotAPI${cbsId ? `&out=${encodeURIComponent(lastResponse)}&in=${encodeURIComponent(stimulus)}&bot=c&cbsid=${cbsId}&xai=${xai}&ns=2&al=&dl=&flag=&user=&mode=1&alt=0&reac=&emo=&sou=website&xed=&` : ''}`)
 			.timeout({
 				response: 10000,
 				deadline: 60000,
@@ -41,8 +41,8 @@ module.exports = async (stimulus, context = [], language) => {
 			.type('text/plain')
 			.send(payload);
 
-			cbsid = req.text.split('\r')[1];
-			xai = `${cbsid.substring(0, 3)},${req.text.split('\r')[2]}`;
+			cbsId = req.text.split('\r')[1];
+			xai = `${cbsId.substring(0, 3)},${req.text.split('\r')[2]}`;
 			lastResponse = req.text.split('\r')[0];
 			return lastResponse;
 		} catch (err) {

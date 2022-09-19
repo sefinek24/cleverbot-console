@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+console.log('Starting new session...');
+
 const cleverbot = require('../cleverbot-free.js');
 const rl = require('node:readline').createInterface({ input: process.stdin, output: process.stdout });
 const { green } = require('chalk');
