@@ -1,6 +1,6 @@
 {
   "name": "cleverbot-console",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Talk with CleverBot in the console.",
   "main": "bin/index.js",
   "scripts": {
@@ -33,6 +33,6 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "md5": "^2.3.0",
-    "superagent": "^8.0.0"
+    "superagent": "^8.0.6"
   }
 }
