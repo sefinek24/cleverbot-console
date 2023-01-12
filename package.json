@@ -24,7 +24,7 @@
     "cleverbot-console": "bin/index.js"
   },
   "preferGlobal": true,
-  "author": "Sefinek <contact@sefinek.fun>",
+  "author": "Sefinek (https://sefinek.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sefinek24/cleverbot-console/issues"
