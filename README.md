@@ -23,7 +23,7 @@ cleverbot <Message>
 ```
 
 ## 🌠 » Example
-```bash
+```
 cleverbot Hello World!
 ```
 
