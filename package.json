@@ -4,10 +4,12 @@
   "description": "Talk to Cleverbot in your console or some other terminal.",
   "keywords": [
     "cleverbot",
-    "in",
-    "the",
-    "console",
-    "terminal"
+    "cleverbot-api",
+    "cleverbot-chat",
+    "cleverbot-cmd",
+    "cleverbot-console",
+    "cleverbot-shell",
+    "console"
   ],
   "homepage": "https://github.com/sefinek24/cleverbot-console#readme",
   "bugs": {
