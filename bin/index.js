@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-
-console.log('Starting new session...');
+console.log('Starting a new session...');
 
 const cleverBot = require('../cleverbot-free.js');
 const readline = require('readline');
@@ -13,10 +12,10 @@ const rl = readline.createInterface({
 
 const context = [];
 
-async function askCleverbot(question) {
+async function askCleverbot(message) {
 	try {
-		const response = await cleverBot(question, context);
-		context.push(question);
+		const response = await cleverBot(message, context);
+		context.push(message);
 		context.push(response);
 		console.log(green(response));
 	} catch (err) {
