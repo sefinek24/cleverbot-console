@@ -22,8 +22,10 @@ npm install cleverbot-console -g
 cleverbot <Message>
 ```
 
-## 🤝 » Help
-Open new [Issue](https://github.com/sefinek24/cleverbot-console/issues/new) on GitHub.
+## 🌠 » Example
+```bash
+cleverbot Hello World!
+```
 
-## ⭐ » Thank you
-Give a star if you can on [GitHub](https://github.com/sefinek24/cleverbot-console) page.
+## ⭐ » Conclusion
+If you like this module, consider giving the [repository a star](https://github.com/sefinek24/cleverbot-console). For any questions or issues, please create a new [Issue](https://github.com/sefinek24/cleverbot-console/issues/new).
