@@ -1,6 +1,6 @@
 <div align="center">
     <h1>🤖・Description・🤖</h1>
-    <p>Talk with CleverBot in the console.</p>
+    <p>Talk with the CleverBot in your console/terminal.</p>
     <a href="https://www.npmjs.com/package/cleverbot-console" target="_blank" title="cleverbot-console - npm" style="text-decoration:none">
         <img src="https://img.shields.io/npm/dt/cleverbot-console.svg?maxAge=3600" alt="npm downloads">
         <img src="https://img.shields.io/github/issues/sefinek24/cleverbot-console" alt="Issues">
@@ -11,13 +11,13 @@
 </div>
 
 ## 📥 » Installation
-```shell
-$ npm install cleverbot-console -g
+```bash
+npm install cleverbot-console -g
 ```
 
 ## 💎 » Usage
-```shell
-$ cleverbot
+```bash
+cleverbot <Message>
 ```
 
 ## 🤝 » Help
