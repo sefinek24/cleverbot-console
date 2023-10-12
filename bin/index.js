@@ -1,14 +1,11 @@
 #!/usr/bin/env node
-console.log('Starting a new session...');
+
+const { magenta, green, red } = require('chalk');
+console.log(magenta('Starting a new session...'));
 
 const cleverBot = require('./cleverbot-free.js');
 const readline = require('readline');
-const { green } = require('chalk');
-
-const rl = readline.createInterface({
-	input: process.stdin,
-	output: process.stdout,
-});
+const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
 const context = [];
 
@@ -19,7 +16,7 @@ async function askCleverbot(message) {
 		context.push(response);
 		console.log(green(response));
 	} catch (err) {
-		console.error('Error communicating with Cleverbot:', err);
+		console.error(red(`Sorry, there was an error communicating with the Cleverbot API.\n\n${err.stack}`));
 	}
 	rl.prompt();
 }
