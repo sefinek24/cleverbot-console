@@ -1,7 +1,7 @@
 const axios = require('axios');
 const md5 = require('md5');
 
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36';
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36';
 const COOKIE_EXPIRATION_TIME = 86400000;
 const MAX_RETRY_ATTEMPTS = 15;
 
