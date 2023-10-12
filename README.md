@@ -1,6 +1,9 @@
 <div align="center">
     <h1>🤖・CleverBOT in your console・🤖</h1>
-    <p>This module allows you to chat with Cleverbot through the command line.</p>
+    <p>
+    This module allows you to chat with Cleverbot through the command line.<br>
+    Get to know your new friend and have a chat with them! 😄
+    </p>
     <a href="https://www.npmjs.com/package/cleverbot-console" target="_blank" title="cleverbot-console - npm" style="text-decoration:none">
         <img src="https://img.shields.io/npm/dt/cleverbot-console.svg?maxAge=3600" alt="npm downloads">
         <img src="https://img.shields.io/github/issues/sefinek24/cleverbot-console" alt="Issues">
@@ -14,12 +17,12 @@
 
 ## 📥 » Installation
 ```bash
-npm install cleverbot-console -g
+npm install -g cleverbot-console
 ```
 
 ## 💎 » Usage
 ```bash
-cleverbot <Message>
+cleverbot <Your message>
 ```
 
 ## 🌠 » Example
@@ -27,5 +30,5 @@ cleverbot <Message>
 cleverbot Hello World!
 ```
 
-## ⭐ » Conclusion
+## ⭐ » Thanks
 If you like this module, consider giving the [repository a star](https://github.com/sefinek24/cleverbot-console). For any questions or issues, please create a new [Issue](https://github.com/sefinek24/cleverbot-console/issues/new).
