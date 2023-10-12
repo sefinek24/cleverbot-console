@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 console.log('Starting a new session...');
 
-const cleverBot = require('../cleverbot-free.js');
+const cleverBot = require('./cleverbot-free.js');
 const readline = require('readline');
 const { green } = require('chalk');
 

@@ -62,7 +62,7 @@ module.exports = async (stimulus, context = [], language) => {
 		} catch (err) {
 			if (err.response && err.response.status === 503) {
 				// If Cleverbot service is unavailable, retry after a delay.
-				await new Promise((resolve) => setTimeout(resolve, 1000));
+				await new Promise(resolve => setTimeout(resolve, 1000));
 			} else {
 				// Handle other errors or rethrow them.
 				throw err;
