@@ -3,7 +3,7 @@
 const { magenta, green, red } = require('chalk');
 console.log(magenta('Starting a new session...'));
 
-const cleverBot = require('./cleverbot-free.js');
+const CleverBot = require('free-cleverbot');
 const readline = require('readline');
 const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
 
@@ -11,7 +11,7 @@ const context = [];
 
 async function askCleverbot(message) {
 	try {
-		const response = await cleverBot(message, context);
+		const response = await CleverBot(message, context);
 		context.push(message);
 		context.push(response);
 		console.log(green(response));

@@ -1,6 +1,6 @@
 {
   "name": "cleverbot-console",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Talk to Cleverbot in your console or some other terminal.",
   "keywords": [
     "cleverbot",
@@ -34,7 +34,7 @@
   "dependencies": {
     "axios": "^1.6.2",
     "chalk": "^4.1.2",
-    "md5": "^2.3.0"
+    "free-cleverbot": "^1.0.1"
   },
   "preferGlobal": true
 }
