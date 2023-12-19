@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { magenta, green, red } = require('chalk');
+const { magenta, green, red } = require('kleur');
 console.log(magenta('Starting a new session...'));
 
 const CleverBot = require('free-cleverbot');
