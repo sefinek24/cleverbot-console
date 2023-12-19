@@ -34,7 +34,7 @@
   "dependencies": {
     "axios": "^1.6.2",
     "chalk": "^4.1.2",
-    "free-cleverbot": "^1.0.1"
+    "free-cleverbot": "^1.2.1"
   },
   "preferGlobal": true
 }
