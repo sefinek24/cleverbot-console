@@ -10,7 +10,7 @@ const rl = readline.createInterface({ input: process.stdin, output: process.stdo
 
 const askCleverbot = async message => {
 	try {
-		const response = await CleverBot(message, context);
+		const response = await CleverBot.interact(message, context);
 		context.push(message);
 		context.push(response);
 
