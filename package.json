@@ -1,7 +1,7 @@
 {
   "name": "cleverbot-console",
-  "version": "1.1.14",
-  "description": "Talk to Cleverbot in your console or some other terminal.",
+  "version": "1.1.15",
+  "description": "Talk to Cleverbot in your console or another terminal.",
   "keywords": [
     "cleverbot",
     "cleverbot-api",
@@ -32,9 +32,12 @@
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
   "dependencies": {
-    "axios": "^1.6.7",
-    "free-cleverbot": "^2.1.1",
+    "@sefinek/cleverbot-free": "^2.1.3",
     "kleur": "^4.1.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "globals": "^15.8.0"
   },
   "preferGlobal": true
 }

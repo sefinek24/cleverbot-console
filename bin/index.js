@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { magenta, green, red } = require('kleur');
-const CleverBot = require('free-cleverbot');
+const CleverBot = require('@sefinek/cleverbot-free');
 const readline = require('readline');
 const context = [];
 
