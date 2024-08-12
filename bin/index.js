@@ -16,7 +16,7 @@ const askCleverbot = async message => {
 
 		console.log(green(response));
 	} catch (err) {
-		console.error(red(`Sorry, there was an error communicating with the Cleverbot API.\n\n${err.stack}`));
+		console.error(red('Sorry, there was an error communicating with the Cleverbot API.\n\n'), err.stack);
 	}
 
 	rl.prompt();
